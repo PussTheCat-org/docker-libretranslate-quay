@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+
+  libretranslate:
+    image: quay.io/pussthecatorg/libretranslate:latest
+    container_name: libretranslate
+    ports:
+      - "127.0.0.1:5000:5000"
+    volumes:
+      - ./api_keys.db:/app/api_keys.db
+      - ./suggestions.db:/app/suggestions.db
+    restart: unless-stopped
