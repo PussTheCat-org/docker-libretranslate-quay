@@ -2,7 +2,7 @@
 
 A [LibreTranslate](https://github.com/LibreTranslate/LibreTranslate) image, on Quay.
 
-[Quay page](https://quay.io/repository/pussthecatorg/libretranslate) | [GitHub page](https://github.com/TheFrenchGhosty/docker-libretranslate-quay)
+[Quay page](https://quay.io/repository/pussthecatorg/libretranslate) | [GitHub page](https://github.com/PussTheCat-org/docker-libretranslate-quay)
 
 This image mostly exist for the [PussTheCat.org](https://pussthecat.org/) [instance](https://libretranslate.pussthecat.org/), but others are free to use it.
 
