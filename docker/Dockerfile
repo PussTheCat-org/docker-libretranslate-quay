@@ -1,4 +1,4 @@
-FROM python:slim-bullseye
+FROM python:3.8-slim-bullseye
 WORKDIR /libretranslate
 RUN apt update -y && apt upgrade -y \
     && apt install -y --no-install-recommends libicu-dev pkg-config gcc g++ git \
