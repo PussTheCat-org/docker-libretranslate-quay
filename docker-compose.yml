@@ -7,5 +7,5 @@ services:
     ports:
       - "127.0.0.1:5000:5000"
     volumes:
-      - "/docker/libretranslate/api_keys.db:/libretranslate/api_keys.db"
-      - "/docker/libretranslate/suggestions.db:/libretranslate/suggestions.db"
+      - "./api_keys.db:/libretranslate/api_keys.db"
+      - "./suggestions.db:/libretranslate/suggestions.db"
