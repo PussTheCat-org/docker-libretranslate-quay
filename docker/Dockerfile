@@ -8,7 +8,7 @@ RUN apt update -y && apt upgrade -y \
     && pip install --upgrade pip \
     && git clone --depth=1 https://github.com/LibreTranslate/LibreTranslate . \
     && pip install -e . \
-    && python3 install_models.py \
+    && python3 scripts/install_models.py \
     && pip install . \
     && pip cache purge
 EXPOSE 5000
